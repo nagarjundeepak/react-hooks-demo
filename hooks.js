@@ -58,7 +58,7 @@ function Apps(){
     setTodos(newTodos);
   }
   const addTodo = text =>{
-    const newTodos = [...todos, {text}];
+    const newTodos = [...todos, {text:text,isCompleted:false}];
     setTodos(newTodos);
   }
 
